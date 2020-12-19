@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" tests="14" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="E:\Pelatihan 2020\Telkom DTI\Project Selenium\Vutura.io_Edit Profile Feature\features\TC_Edit_01.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse sign in page" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0007267">
+        </testcase>
+        <testcase name="And user fill email field" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0002767">
+        </testcase>
+        <testcase name="And fill password field" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0002787">
+        </testcase>
+        <testcase name="And user click sign button" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0002998">
+        </testcase>
+        <testcase name="And user can see bot page" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0006952">
+        </testcase>
+        <testcase name="And user click menu button" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0002329">
+        </testcase>
+        <testcase name="And user click profile menu" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0001985">
+        </testcase>
+        <testcase name="And user browse dashboard my account page" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0003437">
+        </testcase>
+        <testcase name="And user click edit button" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0001489">
+        </testcase>
+        <testcase name="And user fill Nama1 field" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0001517">
+        </testcase>
+        <testcase name="And user fill NamaBisnis1 field" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.000161">
+        </testcase>
+        <testcase name="And user fill Telepon1 field" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0002089">
+        </testcase>
+        <testcase name="When user click Perbarui button" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0001487">
+        </testcase>
+        <testcase name="Then data user has been successfully updated" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0003858">
+        </testcase>
+    </testsuite>
+</testsuites>
