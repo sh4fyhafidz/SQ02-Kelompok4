@@ -1,0 +1,64 @@
+module.exports = {
+
+    url: 'https://dashboard.vutura.io/account',
+
+    elements: {
+        NamaBisnis: by.xpath("//body/div[@id='__nuxt']/div[@id='__layout']/div[@id='app']/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/section[1]/div[2]/div[1]/input[1]")
+    },
+
+    performFill1: function() {
+
+        var selector = page.fillNamaBisnis.elements.NamaBisnis;
+        driver.findElement(selector).clear(selector);
+        return driver.findElement(selector).sendKeys(shared.id.NamaBisnis1);
+    },
+
+    performFill2: function() {
+
+        var selector = page.fillNamaBisnis.elements.NamaBisnis;
+        driver.findElement(selector).clear(selector);
+        return driver.findElement(selector).sendKeys(shared.id.NamaBisnis2);
+    },
+
+    performFill3: function() {
+
+        var selector = page.fillNamaBisnis.elements.NamaBisnis;
+        driver.findElement(selector).clear(selector);
+        return driver.findElement(selector).sendKeys(shared.id.NamaBisnis3);
+    },
+
+    performFill4: function() {
+
+        var selector = page.fillNamaBisnis.elements.NamaBisnis;
+        driver.findElement(selector).clear(selector);
+        return driver.findElement(selector).sendKeys(shared.id.NamaBisnis4);
+    },
+
+    performFill5: function() {
+
+        var selector = page.fillNamaBisnis.elements.NamaBisnis;
+        driver.findElement(selector).clear(selector);
+        return driver.findElement(selector).sendKeys(shared.id.NamaBisnis5);
+    },
+
+    performFill6: function() {
+
+        var selector = page.fillNamaBisnis.elements.NamaBisnis;
+        driver.findElement(selector).clear(selector);
+        return driver.findElement(selector).sendKeys(shared.id.NamaBisnis6);
+    },
+
+    performFill7: function() {
+
+        var selector = page.fillNamaBisnis.elements.NamaBisnis;
+        driver.findElement(selector).clear(selector);
+        return driver.findElement(selector).sendKeys(shared.id.NamaBisnis7);
+    },
+
+    performFill8: function() {
+
+        var selector = page.fillNamaBisnis.elements.NamaBisnis;
+        driver.findElement(selector).clear(selector);
+        return driver.findElement(selector).sendKeys(shared.id.NamaBisnis8);
+    }
+};
