@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="login-and-logout;login-and-logout-on-vutura-user-dashboard" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/My Doc/TUGAS KULIAH/DTI TELKOM/SELENIUM/testselenium/functional-testing/features/logout.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page" classname="login-and-logout;login-and-logout-on-vutura-user-dashboard" time="0.001790701">
+        </testcase>
+        <testcase name="And user fill email to login" classname="login-and-logout;login-and-logout-on-vutura-user-dashboard" time="0.0004406">
+        </testcase>
+        <testcase name="And user fill password to login" classname="login-and-logout;login-and-logout-on-vutura-user-dashboard" time="0.000711399">
+        </testcase>
+        <testcase name="And user click login button" classname="login-and-logout;login-and-logout-on-vutura-user-dashboard" time="0.0003995">
+        </testcase>
+        <testcase name="And user see homepage" classname="login-and-logout;login-and-logout-on-vutura-user-dashboard" time="0.003832901">
+        </testcase>
+        <testcase name="When user click menu button" classname="login-and-logout;login-and-logout-on-vutura-user-dashboard" time="0.000618399">
+        </testcase>
+        <testcase name="Then user click logout button" classname="login-and-logout;login-and-logout-on-vutura-user-dashboard" time="0.000973499">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-and-logout;login-and-logout3-on-vutura-user-dashboard" tests="5" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="D:/My Doc/TUGAS KULIAH/DTI TELKOM/SELENIUM/testselenium/functional-testing/features/logout2.feature">
+            </property>
+        </properties>
+        <testcase name="Given user load login page" classname="login-and-logout;login-and-logout3-on-vutura-user-dashboard">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And user fill email on login" classname="login-and-logout;login-and-logout3-on-vutura-user-dashboard">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And user fill password on login" classname="login-and-logout;login-and-logout3-on-vutura-user-dashboard">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When user click on login button" classname="login-and-logout;login-and-logout3-on-vutura-user-dashboard">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then user still see dashboard" classname="login-and-logout;login-and-logout3-on-vutura-user-dashboard">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="login-and-logout;login-and-logout3-on-vutura-user-dashboard" tests="5" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="D:/My Doc/TUGAS KULIAH/DTI TELKOM/SELENIUM/testselenium/functional-testing/features/logout3.feature">
+            </property>
+        </properties>
+        <testcase name="Given user will load login page" classname="login-and-logout;login-and-logout3-on-vutura-user-dashboard">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And user fill email at login" classname="login-and-logout;login-and-logout3-on-vutura-user-dashboard">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And user fill password at login" classname="login-and-logout;login-and-logout3-on-vutura-user-dashboard">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When user click at login button" classname="login-and-logout;login-and-logout3-on-vutura-user-dashboard">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then user will still see dashboard" classname="login-and-logout;login-and-logout3-on-vutura-user-dashboard">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>
