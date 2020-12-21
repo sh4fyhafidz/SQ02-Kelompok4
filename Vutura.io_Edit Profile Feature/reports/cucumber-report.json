@@ -1,0 +1,2212 @@
+[
+  {
+    "description": "    As a user admin\n    I want to Cancel edit My Profile on Dashboard My Account Vutura.io",
+    "elements": [
+      {
+        "id": "cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User cancel to edit profile on dashboard",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse sign in page",
+            "result": {
+              "status": "passed",
+              "duration": 1409300
+            },
+            "line": 9,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 386500
+            },
+            "line": 10,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 190200
+            },
+            "line": 11,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click sign button",
+            "result": {
+              "status": "passed",
+              "duration": 157400
+            },
+            "line": 12,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user can see bot page",
+            "result": {
+              "status": "passed",
+              "duration": 911500
+            },
+            "line": 13,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click menu button",
+            "result": {
+              "status": "passed",
+              "duration": 246700
+            },
+            "line": 14,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profile menu",
+            "result": {
+              "status": "passed",
+              "duration": 148800
+            },
+            "line": 15,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user browse dashboard my account page",
+            "result": {
+              "status": "passed",
+              "duration": 416500
+            },
+            "line": 16,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click edit button",
+            "result": {
+              "status": "passed",
+              "duration": 137900
+            },
+            "line": 17,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Nama6 field",
+            "result": {
+              "status": "passed",
+              "duration": 195400
+            },
+            "line": 18,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_06-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill NamaBisnis6 field",
+            "result": {
+              "status": "passed",
+              "duration": 232900
+            },
+            "line": 19,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_06-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Telepon6 field",
+            "result": {
+              "status": "passed",
+              "duration": 120500
+            },
+            "line": 20,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_06-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click Batal button",
+            "result": {
+              "status": "passed",
+              "duration": 210600
+            },
+            "line": 21,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Cancel_01-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "data user not updated",
+            "result": {
+              "status": "passed",
+              "duration": 237400
+            },
+            "line": 22,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Cancel_01-steps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 8522841700
+            },
+            "hidden": true,
+            "match": {
+              "location": "Feature\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "cancel-edit-user-profile-01",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Cancel edit user profile 01",
+    "tags": [],
+    "uri": "E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Cancel_01.feature"
+  },
+  {
+    "description": "    As a user 1\n    I want to Edit My Profile on Dashboard My Account Vutura.io",
+    "elements": [
+      {
+        "id": "edit-user-profile-01;user-success-to-edit-profile-on-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User success to edit profile on dashboard",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse sign in page",
+            "result": {
+              "status": "passed",
+              "duration": 631300
+            },
+            "line": 9,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 189900
+            },
+            "line": 10,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 133200
+            },
+            "line": 11,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click sign button",
+            "result": {
+              "status": "passed",
+              "duration": 167200
+            },
+            "line": 12,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user can see bot page",
+            "result": {
+              "status": "passed",
+              "duration": 337400
+            },
+            "line": 13,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click menu button",
+            "result": {
+              "status": "passed",
+              "duration": 231500
+            },
+            "line": 14,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profile menu",
+            "result": {
+              "status": "passed",
+              "duration": 142500
+            },
+            "line": 15,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user browse dashboard my account page",
+            "result": {
+              "status": "passed",
+              "duration": 461800
+            },
+            "line": 16,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click edit button",
+            "result": {
+              "status": "passed",
+              "duration": 129100
+            },
+            "line": 17,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Nama1 field",
+            "result": {
+              "status": "passed",
+              "duration": 258100
+            },
+            "line": 18,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill NamaBisnis1 field",
+            "result": {
+              "status": "passed",
+              "duration": 216900
+            },
+            "line": 19,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Telepon1 field",
+            "result": {
+              "status": "passed",
+              "duration": 220700
+            },
+            "line": 20,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click Perbarui button",
+            "result": {
+              "status": "passed",
+              "duration": 163800
+            },
+            "line": 21,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "There is a notification and data user has been successfully updated",
+            "result": {
+              "status": "passed",
+              "duration": 336900
+            },
+            "line": 22,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 7970767500
+            },
+            "hidden": true,
+            "match": {
+              "location": "Feature\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "edit-user-profile-01",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Edit user profile 01",
+    "tags": [],
+    "uri": "E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Edit_01.feature"
+  },
+  {
+    "description": "    As a user 2\n    I want to Edit My Profile on Dashboard My Account Vutura.io",
+    "elements": [
+      {
+        "id": "edit-user-profile-02;user-success-to-edit-profile-on-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User success to edit profile on dashboard",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse sign in page",
+            "result": {
+              "status": "passed",
+              "duration": 408600
+            },
+            "line": 9,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 292500
+            },
+            "line": 10,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 131600
+            },
+            "line": 11,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click sign button",
+            "result": {
+              "status": "passed",
+              "duration": 96500
+            },
+            "line": 12,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user can see bot page",
+            "result": {
+              "status": "passed",
+              "duration": 197500
+            },
+            "line": 13,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click menu button",
+            "result": {
+              "status": "passed",
+              "duration": 74500
+            },
+            "line": 14,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profile menu",
+            "result": {
+              "status": "passed",
+              "duration": 70700
+            },
+            "line": 15,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user browse dashboard my account page",
+            "result": {
+              "status": "passed",
+              "duration": 189500
+            },
+            "line": 16,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click edit button",
+            "result": {
+              "status": "passed",
+              "duration": 67400
+            },
+            "line": 17,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Nama2 field",
+            "result": {
+              "status": "passed",
+              "duration": 170800
+            },
+            "line": 18,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_02-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill NamaBisnis2 field",
+            "result": {
+              "status": "passed",
+              "duration": 154700
+            },
+            "line": 19,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_02-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Telepon2 field",
+            "result": {
+              "status": "passed",
+              "duration": 137300
+            },
+            "line": 20,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_02-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click Perbarui button",
+            "result": {
+              "status": "passed",
+              "duration": 77900
+            },
+            "line": 21,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "There is a notification and data user has been successfully updated",
+            "result": {
+              "status": "passed",
+              "duration": 268200
+            },
+            "line": 22,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 8024369900
+            },
+            "hidden": true,
+            "match": {
+              "location": "Feature\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "edit-user-profile-02",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Edit user profile 02",
+    "tags": [],
+    "uri": "E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Edit_02.feature"
+  },
+  {
+    "description": "    As a user 3\n    I want to Edit My Profile on Dashboard My Account Vutura.io",
+    "elements": [
+      {
+        "id": "edit-user-profile-03;user-success-to-edit-profile-on-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User success to edit profile on dashboard",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse sign in page",
+            "result": {
+              "status": "passed",
+              "duration": 186100
+            },
+            "line": 9,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 80100
+            },
+            "line": 10,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 122300
+            },
+            "line": 11,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click sign button",
+            "result": {
+              "status": "passed",
+              "duration": 239000
+            },
+            "line": 12,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user can see bot page",
+            "result": {
+              "status": "passed",
+              "duration": 381800
+            },
+            "line": 13,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click menu button",
+            "result": {
+              "status": "passed",
+              "duration": 102600
+            },
+            "line": 14,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profile menu",
+            "result": {
+              "status": "passed",
+              "duration": 139900
+            },
+            "line": 15,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user browse dashboard my account page",
+            "result": {
+              "status": "passed",
+              "duration": 217100
+            },
+            "line": 16,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click edit button",
+            "result": {
+              "status": "passed",
+              "duration": 144800
+            },
+            "line": 17,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Nama3 field",
+            "result": {
+              "status": "passed",
+              "duration": 186200
+            },
+            "line": 18,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_03-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill NamaBisnis3 field",
+            "result": {
+              "status": "passed",
+              "duration": 700600
+            },
+            "line": 19,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_03-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Telepon3 field",
+            "result": {
+              "status": "passed",
+              "duration": 521500
+            },
+            "line": 20,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_03-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click Perbarui button",
+            "result": {
+              "status": "passed",
+              "duration": 483900
+            },
+            "line": 21,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "There is a notification and data user has been successfully updated",
+            "result": {
+              "status": "passed",
+              "duration": 945200
+            },
+            "line": 22,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 9202335300
+            },
+            "hidden": true,
+            "match": {
+              "location": "Feature\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "edit-user-profile-03",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Edit user profile 03",
+    "tags": [],
+    "uri": "E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Edit_03.feature"
+  },
+  {
+    "description": "    As a user 4\n    I want to Edit My Profile on Dashboard My Account Vutura.io",
+    "elements": [
+      {
+        "id": "edit-user-profile-04;user-success-to-edit-profile-on-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User success to edit profile on dashboard",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse sign in page",
+            "result": {
+              "status": "passed",
+              "duration": 221400
+            },
+            "line": 9,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 109300
+            },
+            "line": 10,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 92100
+            },
+            "line": 11,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click sign button",
+            "result": {
+              "status": "passed",
+              "duration": 96600
+            },
+            "line": 12,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user can see bot page",
+            "result": {
+              "status": "passed",
+              "duration": 217000
+            },
+            "line": 13,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click menu button",
+            "result": {
+              "status": "passed",
+              "duration": 97600
+            },
+            "line": 14,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profile menu",
+            "result": {
+              "status": "passed",
+              "duration": 83500
+            },
+            "line": 15,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user browse dashboard my account page",
+            "result": {
+              "status": "passed",
+              "duration": 197100
+            },
+            "line": 16,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click edit button",
+            "result": {
+              "status": "passed",
+              "duration": 969400
+            },
+            "line": 17,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Nama4 field",
+            "result": {
+              "status": "passed",
+              "duration": 144900
+            },
+            "line": 18,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_04-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill NamaBisnis4 field",
+            "result": {
+              "status": "passed",
+              "duration": 179900
+            },
+            "line": 19,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_04-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Telepon4 field",
+            "result": {
+              "status": "passed",
+              "duration": 94700
+            },
+            "line": 20,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_04-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click Perbarui button",
+            "result": {
+              "status": "passed",
+              "duration": 67700
+            },
+            "line": 21,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "There is a notification and data user has been successfully updated",
+            "result": {
+              "status": "passed",
+              "duration": 205100
+            },
+            "line": 22,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 7721954800
+            },
+            "hidden": true,
+            "match": {
+              "location": "Feature\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "edit-user-profile-04",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Edit user profile 04",
+    "tags": [],
+    "uri": "E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Edit_04.feature"
+  },
+  {
+    "description": "    As a user 5\n    I want to Edit My Profile on Dashboard My Account Vutura.io",
+    "elements": [
+      {
+        "id": "edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User unsuccess to edit profile on dashboard",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse sign in page",
+            "result": {
+              "status": "passed",
+              "duration": 277600
+            },
+            "line": 9,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 128400
+            },
+            "line": 10,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 173900
+            },
+            "line": 11,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click sign button",
+            "result": {
+              "status": "passed",
+              "duration": 209500
+            },
+            "line": 12,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user can see bot page",
+            "result": {
+              "status": "passed",
+              "duration": 320400
+            },
+            "line": 13,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click menu button",
+            "result": {
+              "status": "passed",
+              "duration": 118000
+            },
+            "line": 14,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profile menu",
+            "result": {
+              "status": "passed",
+              "duration": 145800
+            },
+            "line": 15,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user browse dashboard my account page",
+            "result": {
+              "status": "passed",
+              "duration": 458100
+            },
+            "line": 16,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click edit button",
+            "result": {
+              "status": "passed",
+              "duration": 99200
+            },
+            "line": 17,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Nama5 field",
+            "result": {
+              "status": "passed",
+              "duration": 201700
+            },
+            "line": 18,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_05-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill NamaBisnis5 field",
+            "result": {
+              "status": "passed",
+              "duration": 149200
+            },
+            "line": 19,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_05-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Telepon5 field",
+            "result": {
+              "status": "passed",
+              "duration": 149500
+            },
+            "line": 20,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_05-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click Perbarui button",
+            "result": {
+              "status": "passed",
+              "duration": 190000
+            },
+            "line": 21,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "There is a notification and data user has been unsuccessfully updated",
+            "result": {
+              "status": "passed",
+              "duration": 318300
+            },
+            "line": 22,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_05-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 8093552900
+            },
+            "hidden": true,
+            "match": {
+              "location": "Feature\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unsuccess",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "edit-user-profile-05",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Edit user profile 05",
+    "tags": [],
+    "uri": "E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Edit_05.feature"
+  },
+  {
+    "description": "    As a user 6\n    I want to Edit My Profile on Dashboard My Account Vutura.io",
+    "elements": [
+      {
+        "id": "edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User unsuccess to edit profile on dashboard",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse sign in page",
+            "result": {
+              "status": "passed",
+              "duration": 166000
+            },
+            "line": 9,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 66400
+            },
+            "line": 10,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 74900
+            },
+            "line": 11,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click sign button",
+            "result": {
+              "status": "passed",
+              "duration": 67000
+            },
+            "line": 12,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user can see bot page",
+            "result": {
+              "status": "passed",
+              "duration": 421300
+            },
+            "line": 13,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click menu button",
+            "result": {
+              "status": "passed",
+              "duration": 72500
+            },
+            "line": 14,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profile menu",
+            "result": {
+              "status": "passed",
+              "duration": 373700
+            },
+            "line": 15,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user browse dashboard my account page",
+            "result": {
+              "status": "passed",
+              "duration": 867300
+            },
+            "line": 16,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click edit button",
+            "result": {
+              "status": "passed",
+              "duration": 178500
+            },
+            "line": 17,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Nama6 field",
+            "result": {
+              "status": "passed",
+              "duration": 76100
+            },
+            "line": 18,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_06-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill NamaBisnis6 field",
+            "result": {
+              "status": "passed",
+              "duration": 75600
+            },
+            "line": 19,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_06-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Telepon6 field",
+            "result": {
+              "status": "passed",
+              "duration": 126300
+            },
+            "line": 20,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_06-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click Perbarui button",
+            "result": {
+              "status": "passed",
+              "duration": 76600
+            },
+            "line": 21,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "There is a notification and data user has been unsuccessfully updated",
+            "result": {
+              "status": "passed",
+              "duration": 421800
+            },
+            "line": 22,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_05-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 7963742800
+            },
+            "hidden": true,
+            "match": {
+              "location": "Feature\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unsuccess",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "edit-user-profile-06",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Edit user profile 06",
+    "tags": [],
+    "uri": "E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Edit_06.feature"
+  },
+  {
+    "description": "    As a user 9\n    I want to Edit My Profile on Dashboard My Account Vutura.io",
+    "elements": [
+      {
+        "id": "edit-user-profile-09;user-can't-to-edit-email-field-profile-on-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User can't to edit email field profile on dashboard",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse sign in page",
+            "result": {
+              "status": "passed",
+              "duration": 529700
+            },
+            "line": 9,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 274400
+            },
+            "line": 10,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 240900
+            },
+            "line": 11,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click sign button",
+            "result": {
+              "status": "passed",
+              "duration": 239300
+            },
+            "line": 12,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user can see bot page",
+            "result": {
+              "status": "passed",
+              "duration": 946300
+            },
+            "line": 13,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click menu button",
+            "result": {
+              "status": "passed",
+              "duration": 175400
+            },
+            "line": 14,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profile menu",
+            "result": {
+              "status": "passed",
+              "duration": 204200
+            },
+            "line": 15,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user browse dashboard my account page",
+            "result": {
+              "status": "passed",
+              "duration": 332100
+            },
+            "line": 16,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click edit button",
+            "result": {
+              "status": "passed",
+              "duration": 76000
+            },
+            "line": 17,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Nama1 field",
+            "result": {
+              "status": "passed",
+              "duration": 109900
+            },
+            "line": 18,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill NamaBisnis1 field",
+            "result": {
+              "status": "passed",
+              "duration": 134900
+            },
+            "line": 19,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Email1 field",
+            "result": {
+              "status": "passed",
+              "duration": 256400
+            },
+            "line": 20,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Email_01-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Telepon1 field",
+            "result": {
+              "status": "passed",
+              "duration": 97300
+            },
+            "line": 21,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click Perbarui button",
+            "result": {
+              "status": "passed",
+              "duration": 82000
+            },
+            "line": 22,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "data user has been unsuccessfully updated",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 7422924000,
+              "error_message": "WebDriverError: element not interactable\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.18363 x86_64)\n    at Object.checkLegacyResponse (E:\\Pelatihan 2020\\Telkom DTI\\SQA W-13\\Project Selenium\\Vutura.io_Edit Profile Feature\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (E:\\Pelatihan 2020\\Telkom DTI\\SQA W-13\\Project Selenium\\Vutura.io_Edit Profile Feature\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at E:\\Pelatihan 2020\\Telkom DTI\\SQA W-13\\Project Selenium\\Vutura.io_Edit Profile Feature\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebElement.sendKeys()\n    at thenableWebDriverProxy.schedule (E:\\Pelatihan 2020\\Telkom DTI\\SQA W-13\\Project Selenium\\Vutura.io_Edit Profile Feature\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at WebElementPromise.schedule_ (E:\\Pelatihan 2020\\Telkom DTI\\SQA W-13\\Project Selenium\\Vutura.io_Edit Profile Feature\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2015:25)\n    at WebElementPromise.sendKeys (E:\\Pelatihan 2020\\Telkom DTI\\SQA W-13\\Project Selenium\\Vutura.io_Edit Profile Feature\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2178:19)\n    at Object.performFill (E:\\Pelatihan 2020\\Telkom DTI\\SQA W-13\\Project Selenium\\Vutura.io_Edit Profile Feature\\page-objects\\fillEmailField.js:12:45)\n    at E:\\Pelatihan 2020\\Telkom DTI\\SQA W-13\\Project Selenium\\Vutura.io_Edit Profile Feature\\step-definitions\\TC_Email_01-steps.js:5:40\n    at ManagedPromise.invokeCallback_ (E:\\Pelatihan 2020\\Telkom DTI\\SQA W-13\\Project Selenium\\Vutura.io_Edit Profile Feature\\node_modules\\selenium-webdriver\\lib\\promise.js:1384:14)\n    at TaskQueue.execute_ (E:\\Pelatihan 2020\\Telkom DTI\\SQA W-13\\Project Selenium\\Vutura.io_Edit Profile Feature\\node_modules\\selenium-webdriver\\lib\\promise.js:3092:14)\n    at TaskQueue.executeNext_ (E:\\Pelatihan 2020\\Telkom DTI\\SQA W-13\\Project Selenium\\Vutura.io_Edit Profile Feature\\node_modules\\selenium-webdriver\\lib\\promise.js:3075:27)\n    at E:\\Pelatihan 2020\\Telkom DTI\\SQA W-13\\Project Selenium\\Vutura.io_Edit Profile Feature\\node_modules\\selenium-webdriver\\lib\\promise.js:2935:27\n    at E:\\Pelatihan 2020\\Telkom DTI\\SQA W-13\\Project Selenium\\Vutura.io_Edit Profile Feature\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7"
+            },
+            "hidden": true,
+            "match": {
+              "location": "Feature\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unsuccess",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "edit-user-profile-09",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Edit user profile 09",
+    "tags": [],
+    "uri": "E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Email_01.feature"
+  },
+  {
+    "description": "    As a user 7\n    I want to Edit My Profile on Dashboard My Account Vutura.io",
+    "elements": [
+      {
+        "id": "edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User incomplete to fill edit profile on dashboard",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse sign in page",
+            "result": {
+              "status": "passed",
+              "duration": 234800
+            },
+            "line": 9,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 92700
+            },
+            "line": 10,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 74500
+            },
+            "line": 11,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click sign button",
+            "result": {
+              "status": "passed",
+              "duration": 67700
+            },
+            "line": 12,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user can see bot page",
+            "result": {
+              "status": "passed",
+              "duration": 199100
+            },
+            "line": 13,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click menu button",
+            "result": {
+              "status": "passed",
+              "duration": 69000
+            },
+            "line": 14,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profile menu",
+            "result": {
+              "status": "passed",
+              "duration": 68300
+            },
+            "line": 15,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user browse dashboard my account page",
+            "result": {
+              "status": "passed",
+              "duration": 178300
+            },
+            "line": 16,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click edit button",
+            "result": {
+              "status": "passed",
+              "duration": 70500
+            },
+            "line": 17,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Nama7 field",
+            "result": {
+              "status": "passed",
+              "duration": 122900
+            },
+            "line": 18,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Incomplete_01-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill NamaBisnis7 field",
+            "result": {
+              "status": "passed",
+              "duration": 165000
+            },
+            "line": 19,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Incomplete_01-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Telepon7 field",
+            "result": {
+              "status": "passed",
+              "duration": 99100
+            },
+            "line": 20,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Incomplete_01-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click Perbarui button",
+            "result": {
+              "status": "passed",
+              "duration": 68600
+            },
+            "line": 21,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "There is a notification and data user has been unsuccessfully updated",
+            "result": {
+              "status": "passed",
+              "duration": 195800
+            },
+            "line": 22,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_05-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 9074556900
+            },
+            "hidden": true,
+            "match": {
+              "location": "Feature\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unsuccess",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "edit-user-profile-07",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Edit user profile 07",
+    "tags": [],
+    "uri": "E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Incomplete_01.feature"
+  },
+  {
+    "description": "    As a user 8\n    I want to Edit My Profile on Dashboard My Account Vutura.io",
+    "elements": [
+      {
+        "id": "edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User incomplete to fill edit profile on dashboard",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse sign in page",
+            "result": {
+              "status": "passed",
+              "duration": 142800
+            },
+            "line": 9,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 70900
+            },
+            "line": 10,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 65800
+            },
+            "line": 11,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click sign button",
+            "result": {
+              "status": "passed",
+              "duration": 68800
+            },
+            "line": 12,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user can see bot page",
+            "result": {
+              "status": "passed",
+              "duration": 183000
+            },
+            "line": 13,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click menu button",
+            "result": {
+              "status": "passed",
+              "duration": 62600
+            },
+            "line": 14,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click profile menu",
+            "result": {
+              "status": "passed",
+              "duration": 59900
+            },
+            "line": 15,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user browse dashboard my account page",
+            "result": {
+              "status": "passed",
+              "duration": 170700
+            },
+            "line": 16,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click edit button",
+            "result": {
+              "status": "passed",
+              "duration": 71500
+            },
+            "line": 17,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Nama8 field",
+            "result": {
+              "status": "passed",
+              "duration": 122700
+            },
+            "line": 18,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Incomplete_02-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill NamaBisnis8 field",
+            "result": {
+              "status": "passed",
+              "duration": 100600
+            },
+            "line": 19,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Incomplete_02-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill Telepon8 field",
+            "result": {
+              "status": "passed",
+              "duration": 98700
+            },
+            "line": 20,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Incomplete_02-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click Perbarui button",
+            "result": {
+              "status": "passed",
+              "duration": 85800
+            },
+            "line": 21,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_01-steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "There is a notification and data user has been unsuccessfully updated",
+            "result": {
+              "status": "passed",
+              "duration": 862000
+            },
+            "line": 22,
+            "match": {
+              "location": "Feature\\step-definitions\\TC_Edit_05-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 8058804900
+            },
+            "hidden": true,
+            "match": {
+              "location": "Feature\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@unsuccess",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "edit-user-profile-08",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Edit user profile 08",
+    "tags": [],
+    "uri": "E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Incomplete_02.feature"
+  }
+]

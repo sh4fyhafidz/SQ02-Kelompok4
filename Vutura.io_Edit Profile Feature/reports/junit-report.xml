@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard" tests="14" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Cancel_01.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse sign in page" classname="cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard" time="0.0014093">
+        </testcase>
+        <testcase name="And user fill email field" classname="cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard" time="0.0003865">
+        </testcase>
+        <testcase name="And fill password field" classname="cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard" time="0.0001902">
+        </testcase>
+        <testcase name="And user click sign button" classname="cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard" time="0.0001574">
+        </testcase>
+        <testcase name="And user can see bot page" classname="cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard" time="0.0009115">
+        </testcase>
+        <testcase name="And user click menu button" classname="cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard" time="0.0002467">
+        </testcase>
+        <testcase name="And user click profile menu" classname="cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard" time="0.0001488">
+        </testcase>
+        <testcase name="And user browse dashboard my account page" classname="cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard" time="0.0004165">
+        </testcase>
+        <testcase name="And user click edit button" classname="cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard" time="0.0001379">
+        </testcase>
+        <testcase name="And user fill Nama6 field" classname="cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard" time="0.0001954">
+        </testcase>
+        <testcase name="And user fill NamaBisnis6 field" classname="cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard" time="0.0002329">
+        </testcase>
+        <testcase name="And user fill Telepon6 field" classname="cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard" time="0.0001205">
+        </testcase>
+        <testcase name="When user click Batal button" classname="cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard" time="0.0002106">
+        </testcase>
+        <testcase name="Then data user not updated" classname="cancel-edit-user-profile-01;user-cancel-to-edit-profile-on-dashboard" time="0.0002374">
+        </testcase>
+    </testsuite>
+    <testsuite name="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" tests="14" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Edit_01.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse sign in page" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0006313">
+        </testcase>
+        <testcase name="And user fill email field" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0001899">
+        </testcase>
+        <testcase name="And fill password field" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0001332">
+        </testcase>
+        <testcase name="And user click sign button" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0001672">
+        </testcase>
+        <testcase name="And user can see bot page" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0003374">
+        </testcase>
+        <testcase name="And user click menu button" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0002315">
+        </testcase>
+        <testcase name="And user click profile menu" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0001425">
+        </testcase>
+        <testcase name="And user browse dashboard my account page" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0004618">
+        </testcase>
+        <testcase name="And user click edit button" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0001291">
+        </testcase>
+        <testcase name="And user fill Nama1 field" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0002581">
+        </testcase>
+        <testcase name="And user fill NamaBisnis1 field" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0002169">
+        </testcase>
+        <testcase name="And user fill Telepon1 field" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0002207">
+        </testcase>
+        <testcase name="When user click Perbarui button" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0001638">
+        </testcase>
+        <testcase name="Then There is a notification and data user has been successfully updated" classname="edit-user-profile-01;user-success-to-edit-profile-on-dashboard" time="0.0003369">
+        </testcase>
+    </testsuite>
+    <testsuite name="edit-user-profile-02;user-success-to-edit-profile-on-dashboard" tests="14" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Edit_02.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse sign in page" classname="edit-user-profile-02;user-success-to-edit-profile-on-dashboard" time="0.0004086">
+        </testcase>
+        <testcase name="And user fill email field" classname="edit-user-profile-02;user-success-to-edit-profile-on-dashboard" time="0.0002925">
+        </testcase>
+        <testcase name="And fill password field" classname="edit-user-profile-02;user-success-to-edit-profile-on-dashboard" time="0.0001316">
+        </testcase>
+        <testcase name="And user click sign button" classname="edit-user-profile-02;user-success-to-edit-profile-on-dashboard" time="0.0000965">
+        </testcase>
+        <testcase name="And user can see bot page" classname="edit-user-profile-02;user-success-to-edit-profile-on-dashboard" time="0.0001975">
+        </testcase>
+        <testcase name="And user click menu button" classname="edit-user-profile-02;user-success-to-edit-profile-on-dashboard" time="0.0000745">
+        </testcase>
+        <testcase name="And user click profile menu" classname="edit-user-profile-02;user-success-to-edit-profile-on-dashboard" time="0.0000707">
+        </testcase>
+        <testcase name="And user browse dashboard my account page" classname="edit-user-profile-02;user-success-to-edit-profile-on-dashboard" time="0.0001895">
+        </testcase>
+        <testcase name="And user click edit button" classname="edit-user-profile-02;user-success-to-edit-profile-on-dashboard" time="0.0000674">
+        </testcase>
+        <testcase name="And user fill Nama2 field" classname="edit-user-profile-02;user-success-to-edit-profile-on-dashboard" time="0.0001708">
+        </testcase>
+        <testcase name="And user fill NamaBisnis2 field" classname="edit-user-profile-02;user-success-to-edit-profile-on-dashboard" time="0.0001547">
+        </testcase>
+        <testcase name="And user fill Telepon2 field" classname="edit-user-profile-02;user-success-to-edit-profile-on-dashboard" time="0.0001373">
+        </testcase>
+        <testcase name="When user click Perbarui button" classname="edit-user-profile-02;user-success-to-edit-profile-on-dashboard" time="0.0000779">
+        </testcase>
+        <testcase name="Then There is a notification and data user has been successfully updated" classname="edit-user-profile-02;user-success-to-edit-profile-on-dashboard" time="0.0002682">
+        </testcase>
+    </testsuite>
+    <testsuite name="edit-user-profile-03;user-success-to-edit-profile-on-dashboard" tests="14" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Edit_03.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse sign in page" classname="edit-user-profile-03;user-success-to-edit-profile-on-dashboard" time="0.0001861">
+        </testcase>
+        <testcase name="And user fill email field" classname="edit-user-profile-03;user-success-to-edit-profile-on-dashboard" time="0.0000801">
+        </testcase>
+        <testcase name="And fill password field" classname="edit-user-profile-03;user-success-to-edit-profile-on-dashboard" time="0.0001223">
+        </testcase>
+        <testcase name="And user click sign button" classname="edit-user-profile-03;user-success-to-edit-profile-on-dashboard" time="0.000239">
+        </testcase>
+        <testcase name="And user can see bot page" classname="edit-user-profile-03;user-success-to-edit-profile-on-dashboard" time="0.0003818">
+        </testcase>
+        <testcase name="And user click menu button" classname="edit-user-profile-03;user-success-to-edit-profile-on-dashboard" time="0.0001026">
+        </testcase>
+        <testcase name="And user click profile menu" classname="edit-user-profile-03;user-success-to-edit-profile-on-dashboard" time="0.0001399">
+        </testcase>
+        <testcase name="And user browse dashboard my account page" classname="edit-user-profile-03;user-success-to-edit-profile-on-dashboard" time="0.0002171">
+        </testcase>
+        <testcase name="And user click edit button" classname="edit-user-profile-03;user-success-to-edit-profile-on-dashboard" time="0.0001448">
+        </testcase>
+        <testcase name="And user fill Nama3 field" classname="edit-user-profile-03;user-success-to-edit-profile-on-dashboard" time="0.0001862">
+        </testcase>
+        <testcase name="And user fill NamaBisnis3 field" classname="edit-user-profile-03;user-success-to-edit-profile-on-dashboard" time="0.0007006">
+        </testcase>
+        <testcase name="And user fill Telepon3 field" classname="edit-user-profile-03;user-success-to-edit-profile-on-dashboard" time="0.0005215">
+        </testcase>
+        <testcase name="When user click Perbarui button" classname="edit-user-profile-03;user-success-to-edit-profile-on-dashboard" time="0.0004839">
+        </testcase>
+        <testcase name="Then There is a notification and data user has been successfully updated" classname="edit-user-profile-03;user-success-to-edit-profile-on-dashboard" time="0.0009452">
+        </testcase>
+    </testsuite>
+    <testsuite name="edit-user-profile-04;user-success-to-edit-profile-on-dashboard" tests="14" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Edit_04.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse sign in page" classname="edit-user-profile-04;user-success-to-edit-profile-on-dashboard" time="0.0002214">
+        </testcase>
+        <testcase name="And user fill email field" classname="edit-user-profile-04;user-success-to-edit-profile-on-dashboard" time="0.0001093">
+        </testcase>
+        <testcase name="And fill password field" classname="edit-user-profile-04;user-success-to-edit-profile-on-dashboard" time="0.0000921">
+        </testcase>
+        <testcase name="And user click sign button" classname="edit-user-profile-04;user-success-to-edit-profile-on-dashboard" time="0.0000966">
+        </testcase>
+        <testcase name="And user can see bot page" classname="edit-user-profile-04;user-success-to-edit-profile-on-dashboard" time="0.000217">
+        </testcase>
+        <testcase name="And user click menu button" classname="edit-user-profile-04;user-success-to-edit-profile-on-dashboard" time="0.0000976">
+        </testcase>
+        <testcase name="And user click profile menu" classname="edit-user-profile-04;user-success-to-edit-profile-on-dashboard" time="0.0000835">
+        </testcase>
+        <testcase name="And user browse dashboard my account page" classname="edit-user-profile-04;user-success-to-edit-profile-on-dashboard" time="0.0001971">
+        </testcase>
+        <testcase name="And user click edit button" classname="edit-user-profile-04;user-success-to-edit-profile-on-dashboard" time="0.0009694">
+        </testcase>
+        <testcase name="And user fill Nama4 field" classname="edit-user-profile-04;user-success-to-edit-profile-on-dashboard" time="0.0001449">
+        </testcase>
+        <testcase name="And user fill NamaBisnis4 field" classname="edit-user-profile-04;user-success-to-edit-profile-on-dashboard" time="0.0001799">
+        </testcase>
+        <testcase name="And user fill Telepon4 field" classname="edit-user-profile-04;user-success-to-edit-profile-on-dashboard" time="0.0000947">
+        </testcase>
+        <testcase name="When user click Perbarui button" classname="edit-user-profile-04;user-success-to-edit-profile-on-dashboard" time="0.0000677">
+        </testcase>
+        <testcase name="Then There is a notification and data user has been successfully updated" classname="edit-user-profile-04;user-success-to-edit-profile-on-dashboard" time="0.0002051">
+        </testcase>
+    </testsuite>
+    <testsuite name="edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard" tests="14" failures="0" skipped="0">
+        <properties>
+            <property name="@unsuccess" value="true">
+            </property>
+            <property name="URI" value="E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Edit_05.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse sign in page" classname="edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard" time="0.0002776">
+        </testcase>
+        <testcase name="And user fill email field" classname="edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard" time="0.0001284">
+        </testcase>
+        <testcase name="And fill password field" classname="edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard" time="0.0001739">
+        </testcase>
+        <testcase name="And user click sign button" classname="edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard" time="0.0002095">
+        </testcase>
+        <testcase name="And user can see bot page" classname="edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard" time="0.0003204">
+        </testcase>
+        <testcase name="And user click menu button" classname="edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard" time="0.000118">
+        </testcase>
+        <testcase name="And user click profile menu" classname="edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard" time="0.0001458">
+        </testcase>
+        <testcase name="And user browse dashboard my account page" classname="edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard" time="0.0004581">
+        </testcase>
+        <testcase name="And user click edit button" classname="edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard" time="0.0000992">
+        </testcase>
+        <testcase name="And user fill Nama5 field" classname="edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard" time="0.0002017">
+        </testcase>
+        <testcase name="And user fill NamaBisnis5 field" classname="edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard" time="0.0001492">
+        </testcase>
+        <testcase name="And user fill Telepon5 field" classname="edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard" time="0.0001495">
+        </testcase>
+        <testcase name="When user click Perbarui button" classname="edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard" time="0.00019">
+        </testcase>
+        <testcase name="Then There is a notification and data user has been unsuccessfully updated" classname="edit-user-profile-05;user-unsuccess-to-edit-profile-on-dashboard" time="0.0003183">
+        </testcase>
+    </testsuite>
+    <testsuite name="edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard" tests="14" failures="0" skipped="0">
+        <properties>
+            <property name="@unsuccess" value="true">
+            </property>
+            <property name="URI" value="E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Edit_06.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse sign in page" classname="edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard" time="0.000166">
+        </testcase>
+        <testcase name="And user fill email field" classname="edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard" time="0.0000664">
+        </testcase>
+        <testcase name="And fill password field" classname="edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard" time="0.0000749">
+        </testcase>
+        <testcase name="And user click sign button" classname="edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard" time="0.000067">
+        </testcase>
+        <testcase name="And user can see bot page" classname="edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard" time="0.0004213">
+        </testcase>
+        <testcase name="And user click menu button" classname="edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard" time="0.0000725">
+        </testcase>
+        <testcase name="And user click profile menu" classname="edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard" time="0.0003737">
+        </testcase>
+        <testcase name="And user browse dashboard my account page" classname="edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard" time="0.0008673">
+        </testcase>
+        <testcase name="And user click edit button" classname="edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard" time="0.0001785">
+        </testcase>
+        <testcase name="And user fill Nama6 field" classname="edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard" time="0.0000761">
+        </testcase>
+        <testcase name="And user fill NamaBisnis6 field" classname="edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard" time="0.0000756">
+        </testcase>
+        <testcase name="And user fill Telepon6 field" classname="edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard" time="0.0001263">
+        </testcase>
+        <testcase name="When user click Perbarui button" classname="edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard" time="0.0000766">
+        </testcase>
+        <testcase name="Then There is a notification and data user has been unsuccessfully updated" classname="edit-user-profile-06;user-unsuccess-to-edit-profile-on-dashboard" time="0.0004218">
+        </testcase>
+    </testsuite>
+    <testsuite name="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard" tests="15" failures="0" skipped="1">
+        <properties>
+            <property name="@unsuccess" value="true">
+            </property>
+            <property name="URI" value="E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Email_01.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse sign in page" classname="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard" time="0.0005297">
+        </testcase>
+        <testcase name="And user fill email field" classname="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard" time="0.0002744">
+        </testcase>
+        <testcase name="And fill password field" classname="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard" time="0.0002409">
+        </testcase>
+        <testcase name="And user click sign button" classname="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard" time="0.0002393">
+        </testcase>
+        <testcase name="And user can see bot page" classname="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard" time="0.0009463">
+        </testcase>
+        <testcase name="And user click menu button" classname="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard" time="0.0001754">
+        </testcase>
+        <testcase name="And user click profile menu" classname="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard" time="0.0002042">
+        </testcase>
+        <testcase name="And user browse dashboard my account page" classname="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard" time="0.0003321">
+        </testcase>
+        <testcase name="And user click edit button" classname="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard" time="0.000076">
+        </testcase>
+        <testcase name="And user fill Nama1 field" classname="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard" time="0.0001099">
+        </testcase>
+        <testcase name="And user fill NamaBisnis1 field" classname="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard" time="0.0001349">
+        </testcase>
+        <testcase name="And user fill Email1 field" classname="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard" time="0.0002564">
+        </testcase>
+        <testcase name="And user fill Telepon1 field" classname="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard" time="0.0000973">
+        </testcase>
+        <testcase name="When user click Perbarui button" classname="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard" time="0.000082">
+        </testcase>
+        <testcase name="Then data user has been unsuccessfully updated" classname="edit-user-profile-09;user-can&apos;t-to-edit-email-field-profile-on-dashboard">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard" tests="14" failures="0" skipped="0">
+        <properties>
+            <property name="@unsuccess" value="true">
+            </property>
+            <property name="URI" value="E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Incomplete_01.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse sign in page" classname="edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0002348">
+        </testcase>
+        <testcase name="And user fill email field" classname="edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0000927">
+        </testcase>
+        <testcase name="And fill password field" classname="edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0000745">
+        </testcase>
+        <testcase name="And user click sign button" classname="edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0000677">
+        </testcase>
+        <testcase name="And user can see bot page" classname="edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0001991">
+        </testcase>
+        <testcase name="And user click menu button" classname="edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.000069">
+        </testcase>
+        <testcase name="And user click profile menu" classname="edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0000683">
+        </testcase>
+        <testcase name="And user browse dashboard my account page" classname="edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0001783">
+        </testcase>
+        <testcase name="And user click edit button" classname="edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0000705">
+        </testcase>
+        <testcase name="And user fill Nama7 field" classname="edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0001229">
+        </testcase>
+        <testcase name="And user fill NamaBisnis7 field" classname="edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.000165">
+        </testcase>
+        <testcase name="And user fill Telepon7 field" classname="edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0000991">
+        </testcase>
+        <testcase name="When user click Perbarui button" classname="edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0000686">
+        </testcase>
+        <testcase name="Then There is a notification and data user has been unsuccessfully updated" classname="edit-user-profile-07;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0001958">
+        </testcase>
+    </testsuite>
+    <testsuite name="edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard" tests="14" failures="0" skipped="0">
+        <properties>
+            <property name="@unsuccess" value="true">
+            </property>
+            <property name="URI" value="E:/Pelatihan 2020/Telkom DTI/SQA W-13/Project Selenium/Vutura.io_Edit Profile Feature/features/TC_Incomplete_02.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse sign in page" classname="edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0001428">
+        </testcase>
+        <testcase name="And user fill email field" classname="edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0000709">
+        </testcase>
+        <testcase name="And fill password field" classname="edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0000658">
+        </testcase>
+        <testcase name="And user click sign button" classname="edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0000688">
+        </testcase>
+        <testcase name="And user can see bot page" classname="edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.000183">
+        </testcase>
+        <testcase name="And user click menu button" classname="edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0000626">
+        </testcase>
+        <testcase name="And user click profile menu" classname="edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0000599">
+        </testcase>
+        <testcase name="And user browse dashboard my account page" classname="edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0001707">
+        </testcase>
+        <testcase name="And user click edit button" classname="edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0000715">
+        </testcase>
+        <testcase name="And user fill Nama8 field" classname="edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0001227">
+        </testcase>
+        <testcase name="And user fill NamaBisnis8 field" classname="edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0001006">
+        </testcase>
+        <testcase name="And user fill Telepon8 field" classname="edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0000987">
+        </testcase>
+        <testcase name="When user click Perbarui button" classname="edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.0000858">
+        </testcase>
+        <testcase name="Then There is a notification and data user has been unsuccessfully updated" classname="edit-user-profile-08;user-incomplete-to-fill-edit-profile-on-dashboard" time="0.000862">
+        </testcase>
+    </testsuite>
+</testsuites>
