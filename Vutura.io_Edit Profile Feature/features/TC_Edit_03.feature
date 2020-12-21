@@ -19,4 +19,8 @@ Feature: Edit user profile 03
         And user fill NamaBisnis3 field
         And user fill Telepon3 field
         When user click Perbarui button
+<<<<<<< HEAD
         Then data user has been successfully updated
+=======
+        Then There is a notification and data user has been successfully updated
+>>>>>>> d3210eb007ab9ff3ef4d909d69955ef00034f996

@@ -9,7 +9,11 @@ module.exports = {
     perform: function() {
 
         var selector = page.btnUpdate.elements.Update;
+<<<<<<< HEAD
         return driver.findElement(selector).click(selector);
+=======
+        return driver.findElement(selector).click();
+>>>>>>> d3210eb007ab9ff3ef4d909d69955ef00034f996
         console.log("clicked");
     }
 };

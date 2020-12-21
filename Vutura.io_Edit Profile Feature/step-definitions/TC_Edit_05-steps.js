@@ -15,7 +15,12 @@ module.exports = function () {
           return page.fillTelepon.performFill5()
       })
     });
+<<<<<<< HEAD
     this.Then(/^data user has been unsuccessfully updated$/, function () {
       driver.manage().timeouts().implicitlyWait(5000);
+=======
+    this.Then(/^There is a notification and data user has been unsuccessfully updated$/, function () {
+      driver.manage().timeouts().implicitlyWait(50000);
+>>>>>>> d3210eb007ab9ff3ef4d909d69955ef00034f996
     });
   }

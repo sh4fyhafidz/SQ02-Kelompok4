@@ -9,12 +9,21 @@ module.exports = {
     Telepon1 : '081255559090',
 
     Nama2 : 'SQA02_04',
+<<<<<<< HEAD
     NamaBisnis2 : 'Baju99',
     Telepon2 : '08112349090',
 
     Nama3 : 'SQA02@04',
     NamaBisnis3 : 'Baju@99',
     Telepon3 : '628112349090',
+=======
+    NamaBisnis2 : 'Baju_99',
+    Telepon2 : '(022)7535170',
+
+    Nama3 : 'KelompokEmpat',
+    NamaBisnis3 : 'BajuAja',
+    Telepon3 : '(+6222)7535170',
+>>>>>>> d3210eb007ab9ff3ef4d909d69955ef00034f996
 
     Nama4 : 'Kelompok 4 DTI',
     NamaBisnis4 : 'Baju Co',
