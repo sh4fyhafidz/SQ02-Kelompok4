@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="create-chatbot-02;user-success-to-create-chatbot-on-the-website" tests="11" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\ASUS\Documents\functionaltest\features\createcb2.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse sign in page" classname="create-chatbot-02;user-success-to-create-chatbot-on-the-website" time="0.0050861">
+        </testcase>
+        <testcase name="And user fill email field" classname="create-chatbot-02;user-success-to-create-chatbot-on-the-website" time="0.0004024">
+        </testcase>
+        <testcase name="And user fill password field" classname="create-chatbot-02;user-success-to-create-chatbot-on-the-website" time="0.0003328">
+        </testcase>
+        <testcase name="And user click sign in button" classname="create-chatbot-02;user-success-to-create-chatbot-on-the-website" time="0.0002275">
+        </testcase>
+        <testcase name="And user can see bot page" classname="create-chatbot-02;user-success-to-create-chatbot-on-the-website" time="0.0008852">
+        </testcase>
+        <testcase name="And user can click chatbot button" classname="create-chatbot-02;user-success-to-create-chatbot-on-the-website" time="0.0002012">
+        </testcase>
+        <testcase name="And user click check box icon" classname="create-chatbot-02;user-success-to-create-chatbot-on-the-website" time="0.0002022">
+        </testcase>
+        <testcase name="And user click select template" classname="create-chatbot-02;user-success-to-create-chatbot-on-the-website" time="0.0001802">
+        </testcase>
+        <testcase name="And user click template" classname="create-chatbot-02;user-success-to-create-chatbot-on-the-website" time="0.0001782">
+        </testcase>
+        <testcase name="When user click create chatbot button" classname="create-chatbot-02;user-success-to-create-chatbot-on-the-website" time="0.0002076">
+        </testcase>
+        <testcase name="Then chatbot has been succsessfully created" classname="create-chatbot-02;user-success-to-create-chatbot-on-the-website" time="0.0003514">
+        </testcase>
+    </testsuite>
+</testsuites>

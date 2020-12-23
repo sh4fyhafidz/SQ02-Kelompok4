@@ -1,0 +1,178 @@
+[
+  {
+    "description": "    As a user\n    I want to be able to create chatbot on Dshboard bot Vutura.io by Template",
+    "elements": [
+      {
+        "id": "create-chatbot-02;user-success-to-create-chatbot-on-the-website",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User success to create chatbot on the website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse sign in page",
+            "result": {
+              "status": "passed",
+              "duration": 5086100
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\ASUS\\Documents\\functionaltest\\step-definitions\\createcb1-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 402400
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\ASUS\\Documents\\functionaltest\\step-definitions\\createcb1-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 332800
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\ASUS\\Documents\\functionaltest\\step-definitions\\createcb1-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 227500
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\ASUS\\Documents\\functionaltest\\step-definitions\\createcb1-steps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user can see bot page",
+            "result": {
+              "status": "passed",
+              "duration": 885200
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\ASUS\\Documents\\functionaltest\\step-definitions\\createcb1-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user can click chatbot button",
+            "result": {
+              "status": "passed",
+              "duration": 201200
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\ASUS\\Documents\\functionaltest\\step-definitions\\createcb1-steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click check box icon",
+            "result": {
+              "status": "passed",
+              "duration": 202200
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\ASUS\\Documents\\functionaltest\\step-definitions\\createcb2-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click select template",
+            "result": {
+              "status": "passed",
+              "duration": 180200
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\ASUS\\Documents\\functionaltest\\step-definitions\\createcb2-steps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click template",
+            "result": {
+              "status": "passed",
+              "duration": 178200
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\ASUS\\Documents\\functionaltest\\step-definitions\\createcb2-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click create chatbot button",
+            "result": {
+              "status": "passed",
+              "duration": 207600
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\ASUS\\Documents\\functionaltest\\step-definitions\\createcb1-steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "chatbot has been succsessfully created",
+            "result": {
+              "status": "passed",
+              "duration": 351400
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\ASUS\\Documents\\functionaltest\\step-definitions\\createcb1-steps.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 10570129400
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\ASUS\\Documents\\functionaltest\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "create-chatbot-02",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Create Chatbot 02",
+    "tags": [],
+    "uri": "C:\\Users\\ASUS\\Documents\\functionaltest\\features\\createcb2.feature"
+  }
+]
