@@ -61,7 +61,7 @@ module.exports = function () {
             return page.btnUpdate.perform()
         })
       });
-    this.Then(/^data user has been successfully updated$/, function () {
-        driver.manage().timeouts().implicitlyWait(5000);
+    this.Then(/^There is a notification and data user has been successfully updated$/, function () {
+        driver.manage().timeouts().implicitlyWait(50000);
       });
 }

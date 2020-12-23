@@ -15,7 +15,7 @@ module.exports = function () {
           return page.fillTelepon.performFill5()
       })
     });
-    this.Then(/^data user has been unsuccessfully updated$/, function () {
-      driver.manage().timeouts().implicitlyWait(5000);
+    this.Then(/^There is a notification and data user has been unsuccessfully updated$/, function () {
+      driver.manage().timeouts().implicitlyWait(50000);
     });
   }

@@ -19,4 +19,4 @@ Feature: Edit user profile 08
         And user fill NamaBisnis8 field
         And user fill Telepon8 field
         When user click Perbarui button
-        Then data user has been unsuccessfully updated
+        Then There is a notification and data user has been unsuccessfully updated

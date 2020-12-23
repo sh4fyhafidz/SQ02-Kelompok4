@@ -7,7 +7,7 @@ module.exports = function () {
       });
     
     this.Then(/^data user not updated$/, function () {
-        driver.manage().timeouts().implicitlyWait(5000);
+        driver.manage().timeouts().implicitlyWait(50000);
       });
 
 }

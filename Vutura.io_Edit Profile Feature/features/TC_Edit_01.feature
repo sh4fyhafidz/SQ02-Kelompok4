@@ -19,4 +19,4 @@ Feature: Edit user profile 01
         And user fill NamaBisnis1 field
         And user fill Telepon1 field
         When user click Perbarui button
-        Then data user has been successfully updated
+        Then There is a notification and data user has been successfully updated
